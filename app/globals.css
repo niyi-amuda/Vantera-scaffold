@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-obsidian-950 text-ivory font-body antialiased;
+}
+
+h1, h2, h3 {
+  @apply font-display;
+}
